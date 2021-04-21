@@ -27,8 +27,9 @@
 
 - Open up command line.
 - cd into the directory.
-- Run "npm install ."
+- Run "npm install ." and "npm link"
 - Wait for the packages to install.
+- Create a "downloads" directory (mkdir downloads).
 - Run "yt-convert (url) (true/false)". Replace (url) with a youtube url. If you want to download as mp3, make sure to say true after the url. Will default to false.
 - The url is mandatory. Not providing one **will throw an exception.**
 - Wait for the download to finish.
